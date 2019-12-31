@@ -20,7 +20,6 @@ import lombok.ToString;
 
 
 @Document
-@Data @AllArgsConstructor @NoArgsConstructor 
 
 public class AppRole {
     @Id

@@ -18,7 +18,7 @@ import java.util.Collection;
 
 import javax.validation.constraints.Email;
 @Document
-@Data @AllArgsConstructor @NoArgsConstructor 
+ 
 
 public class AppUser {
     @Id

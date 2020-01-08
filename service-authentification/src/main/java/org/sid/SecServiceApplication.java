@@ -24,7 +24,7 @@ public class SecServiceApplication {
     @Bean
     CommandLineRunner start(AccountService accountService,AppUserRepository appUserRepository,AppRoleRepository appRoleRepository){
         return args->{
-        	appRoleRepository.deleteAll();
+        	/*appRoleRepository.deleteAll();
         	appUserRepository.deleteAll();
 
         	AppRole ADMIN= new AppRole(null,"ADMIN", new ArrayList<AppUser>());
@@ -40,7 +40,7 @@ public class SecServiceApplication {
             
             accountService.addRoleToUser(user1.getIdUser(), "BO");
             accountService.addRoleToUser(user2.getIdUser(), "ABONNE");
-            accountService.addRoleToUser(admin.getIdUser(),"ADMIN");
+            accountService.addRoleToUser(admin.getIdUser(),"ADMIN");*/
            
         };
     }
